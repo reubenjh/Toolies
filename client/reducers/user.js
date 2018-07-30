@@ -157,6 +157,12 @@ export default function user(state = initialState, action) {
           [messageType]: [...state.messages[messageType].filter(message => message.id != action.id), newMessage],
         }
       }
+
+    case 'MAILOUT_ERROR':
+      return {
+        ...state,
+        mailError: action.message
+      }
     default:
       return state
   }
