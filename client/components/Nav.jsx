@@ -17,7 +17,7 @@ class Nav extends React.Component {
       <div className='section' id='navbar'>
         <div className='columns is-centered has-text-centered navLink'>
           <div className='column is-3'>
-            <p><Link className={this.props.location.pathname === "/toolpool" ? 'active' : ""} to="/toolpool">All tools</Link></p>
+            <p><Link className={this.props.location.pathname === "/toolpool" ? 'active' : ""} to="/toolpool">Browse</Link></p>
           </div>
           <div className='column is-6'>
             <h1 className={this.props.location.pathname === "/login" ? 'active title is-3' : "title is-3"}><Link to="/">Nuts & Bolts</Link></h1>

@@ -101,7 +101,7 @@ export class ToolPool extends React.Component {
         <div className="container">
           <div className='columns is-multiline'>
             <div className='column is-4 is-offset-4 has-text-centered'>
-              <h1 className='title is-1'>TOOL POOL</h1>
+              <h1 className='title is-1'>All The Goodies</h1>
               {this.props.err && <span className="has-text-danger is-large">{this.props.err}</span>}
             </div>
 
