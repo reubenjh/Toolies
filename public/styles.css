@@ -7,19 +7,24 @@
     margin-top: 23px;
     width: 100%
 }
+
 .homebody {
-    background-image: url("images/background/spanner-darker.jpg");
+    background-image: url("images/background/welly-map_edited_2.png");
     background-position: center center;
     background-repeat:  no-repeat;
     background-size:  cover;
-    height: 100vh;
-    padding-top: 10vh;
+    padding-top: 7vh;
+    padding-bottom: 4vh;
     margin: auto;
 }
 
 .gearitemimg{
     max-height: 400px;
     max-width: 400px;
+}
+
+.main-header {
+    
 }
 
 /* custom bulma overrides */

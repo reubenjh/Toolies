@@ -28,8 +28,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <div className="">
-
+        <div>
           <Route path='/' component={Nav} />
           <Route exact path='/' component={Home} />
           <Route exact path='/toolpool' component={ToolPool} />

@@ -159,7 +159,7 @@ class Profile extends React.Component {
               <div className='level'>
                 <div className='level-left'>
                   <div className='level-item'>
-                    <h1 className='title is-1'>MY TOOLS</h1>
+                    <h1 className='title is-1'>My Tools</h1>
                   </div>
                 </div>
                 <div className='level-right'>

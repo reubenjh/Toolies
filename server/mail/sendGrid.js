@@ -16,13 +16,13 @@ function sendRequest(details) {
   <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <title>BORROWERS</title>
+  <title>Nuts & Bolts</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
 <body style="fontcolor:black;">
   <div style="padding:40px; background-color: #777777; max-width: 525px;">
   <div style="padding:10px; background-color: #FFFFFF; max-width: 500px;">
-  <h1 style="text-align: center;"><img style="height: 1em; padding-right: 15px;" src="https://gears-of-poor.herokuapp.com/icon/sample_icon-512.png"/>BORROWERS<img style="height: 1em; padding-left: 15px;" src="https://gears-of-poor.herokuapp.com/icon/sample_icon-512.png"/></h1>
+  <h1 style="text-align: center;"><img style="height: 1em; padding-right: 15px;" src="https://gears-of-poor.herokuapp.com/icon/sample_icon-512.png"/>Nuts & Bolts<img style="height: 1em; padding-left: 15px;" src="https://gears-of-poor.herokuapp.com/icon/sample_icon-512.png"/></h1>
   <h2 style="b">Hey ${item.first_name},</h2>
   ${requester.user_name} wants to use your <a href='https://gears-of-poor.herokuapp.com/#/item/${item.id}'>${item.name}</a>.
   <br><br>

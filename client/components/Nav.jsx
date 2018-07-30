@@ -17,21 +17,21 @@ class Nav extends React.Component {
       <div className='section' id='navbar'>
         <div className='columns is-centered has-text-centered navLink'>
           <div className='column is-3'>
-            <p><Link className={this.props.location.pathname === "/toolpool" ? 'active' : ""} to="/toolpool">TOOL POOL</Link></p>
+            <p><Link className={this.props.location.pathname === "/toolpool" ? 'active' : ""} to="/toolpool">Browse</Link></p>
           </div>
           <div className='column is-6'>
-            <h1 className={this.props.location.pathname === "/login" ? 'active title is-3' : "title is-3"}><Link to="/">BORROWERS</Link></h1>
+            <h1 className={this.props.location.pathname === "/login" ? 'active title is-3' : "title is-3"}><Link to="/">Nuts & Bolts</Link></h1>
           </div>
           <div className='column is-3'>
             {this.props.auth.isAuthenticated
               ? [
                 <div>
-                <Link className={this.props.location.pathname === "/profile" ? 'active' : ""} to="/profile">PROFILE</Link>
-                <Link className='navSpace' to="/" onClick={this.props.logout}>LOGOUT</Link>
+                <Link className={this.props.location.pathname === "/profile" ? 'active' : ""} to="/profile">My Account</Link>
+                <Link className='navSpace' to="/" onClick={this.props.logout}>Logout</Link>
                 </div>
                 ]
                 : [
-                  <Link className={this.props.location.pathname === "/login" ? 'active' : ""} to='/login'>LOGIN</Link>
+                  <Link className={this.props.location.pathname === "/login" ? 'active' : ""} to='/login'>Login</Link>
                 ]
               }
           </div>
