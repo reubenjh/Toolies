@@ -1,53 +1,39 @@
+# Nuts & Bolts
+A platform to share expensive equipment within trusted groups. EDA 2018 final project!
 <img src='https://nypdecider.files.wordpress.com/2018/04/home-improvement-wilson-tim.jpg?quality=90&strip=all&strip=all'>
 
-#(name to be confirmed)
+ ---
+ 
+## Development notes
 
-A platform to share expensive equipment within trusted groups
-
-## Name ideas
-  * Commppliance
-  * ESYWTUBNB
-  * Toolies
-  * Toolerino
-  * ToolPool
-  * GearShare
-  * Gears of Poor
-  * The Kitchen Sink
-  * The Broom Cupboard
-  * Blender
-  * Return to Blender
-  * Nuts & Bolts
-  * The Broom Cupboard
-  * Borrowers
-
-## User Stories
+### User Stories
   * I can sign up
   * I can see my profile
   * I can add some of my tools to share
   * I can view other tools in the Tool Pool
   * I can view a particualr tool and see the trust framework for it
   * I can request a tool to use (email sent)
-  * Once accepted, the tools status changes to rented
+  * Once accepted, the tool's status changes
 
 ### MVP
-  * Login to view everything
-  * Profile/Tools available to Share
-  * Edit Tool Profile/Add a Tool Profile
-  * Definining Trust Framework
-  * Browse Tools available to use
+  * Account creation
+  * Add tools to profile to share
+  * Edit a tool on my profile
+  * Definining what trust framework to list gear under
+  * Browse the tools available to use
   * Request a tool to use (email sent)
-  * Change Tool Status to rented/available
+  * Change tool status between rented/available
 
-### Stretch
-  * Multiple Groups (Tool Pools)
-  * Trust Ratings
+### Stretch goals
+  * Multiple groups eg Karori mountain bikers vs. wider Wellington region
+  * Trust ratings Uber style
   * See tools that are currently rented
-  * Forum to discuss tools/appliances that people needs tips/advice with.
-  * In app messages
+  * Forum to discuss gear that people need tips/advice with.
+  * In-app messaging system
   * View others' profiles when you're logged in
-  * Keeping ToolPool ?anonymus? (proof of id auth)
-  * Changing profile picture
-  * Modal for add gear form
+  * Keeping the app safe (proof of id auth on register/credit card and bond understanding)
+  * Upload photos for gear/profile
+  * Modals
 
 
 ## Views (Client Side)
@@ -72,12 +58,12 @@ A platform to share expensive equipment within trusted groups
   | --- | --- |
   | auth | Store information regarding user logins, auth status and auth errors |
   | gear | Store the array of all gear and status of any gear fetching/saving |
-  | user | Store user info and array of all gear belonging to logged in user |
+  | user | Store logged-in user info, array of all gear belonging to user and all messages |
 
 
 ## Thunk Actions (Client Side)
 
-Each of these actions calls on several synchrous actions on sending and receiving fetch/save requests to DB
+Each of these actions calls on several synchronous actions on sending and receiving fetch/save requests to DB
 
   | name | data | purpose |
   | --- | --- | --- |
@@ -96,7 +82,7 @@ Each of these actions calls on several synchrous actions on sending and receivin
   | manageMessageUpdate | id, update object | manages updating request in db and state |
   | mailRequest | request object, callback | manages email sending to user |
   
-## Synchrous actions
+## Synchronous actions
 
   | type | data | purpose |
   | --- | --- | --- |
