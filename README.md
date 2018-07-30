@@ -1,6 +1,7 @@
+<img src='https://nypdecider.files.wordpress.com/2018/04/home-improvement-wilson-tim.jpg?quality=90&strip=all&strip=all'>
+
 # Nuts & Bolts
 A platform to share expensive equipment within trusted groups. EDA 2018 final project!
-<img src='https://nypdecider.files.wordpress.com/2018/04/home-improvement-wilson-tim.jpg?quality=90&strip=all&strip=all'>
 
  ---
  
