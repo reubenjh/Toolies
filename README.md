@@ -3,7 +3,10 @@ A platform to share expensive equipment within trusted groups. EDA 2018 final pr
 
 Check it out live at https://nuts-bolts.herokuapp.com
 
-<img src=''>
+Or... check out Vlad's profile and a piece of equipment: 
+<img src='public/images/readme/profile-screen.PNG' alt='profile page view'>
+<img src='public/images/readme/gear-screen.PNG' alt='profile page view'>
+
 
  
 ## Development notes
