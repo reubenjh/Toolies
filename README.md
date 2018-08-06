@@ -4,9 +4,11 @@ A platform to share expensive equipment within trusted groups so you don't have 
 Check it out live at https://nuts-bolts.herokuapp.com
 
 Or... check out my profile: 
+
 <img src='public/images/readme/prof.PNG' alt='profile page view'>
 
-and the food dehydrator he so desperately needs:
+and the penny farthing I'm so keen to take for a spin:
+
 <img src='public/images/readme/gear.PNG' alt='profile gear view'>
 
 ---
