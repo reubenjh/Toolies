@@ -35,7 +35,7 @@ class Register extends React.Component {
     return (
       <div className='section'>
         <div className='columns is-centered'>
-          <div className='column is-6'>
+          <div className='column is-4'>
 
             <form className="form" onSubmit={this.submit}>
               <h1 className="title is-1 has-text-centered">Register</h1>

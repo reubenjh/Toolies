@@ -3,7 +3,7 @@ static
 npm-debug.log
 dev.sqlite3
 bundle.js
-# .env
+.env
 bundle.js.map
 yarn-error.log
 .mailercreds.js
