@@ -1,17 +1,17 @@
 # Nuts & Bolts
-A platform to share expensive equipment within trusted groups. EDA 2018 final project!
+A platform to share expensive equipment within trusted groups so you don't have to buy gear for a one-off use. This was my Enspiral Dev Academy 2018 final project and was built by Stanley Roache, Hayden Blummont, Bradley Adams and myself.
 
 Check it out live at https://nuts-bolts.herokuapp.com
 
-Or... check out Vlad's profile: 
-<img src='public/images/readme/profile-screen.PNG' alt='profile page view'>
+Or... check out my profile: 
+<img src='public/images/readme/prof.PNG' alt='profile page view'>
 
 and the food dehydrator he so desperately needs:
-<img src='public/images/readme/gear-screen.PNG' alt='profile page view'>
+<img src='public/images/readme/gear.PNG' alt='profile gear view'>
 
-
+---
  
-## Development notes
+# Development notes
 
 ### User Stories
   * I can sign up
