@@ -23,7 +23,6 @@ router.post('/request', (req, res) => {
         return sendRequest({ item, requester, messageBody })
     })
     .then(() => {
-        console.log('successfully sent mail')
         res.sendStatus(200)
     })
     .catch(err => {
