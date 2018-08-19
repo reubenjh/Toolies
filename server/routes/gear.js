@@ -5,9 +5,7 @@ const gearDB = require('../db/gear')
 
 // public routes
 
-router.get('/single/:id', (req, res) => {
-  console.log('hit route');
-  
+router.get('/single/:id', (req, res) => {  
   const gearID = Number(req.params.id)
 
   gearDB.getGearByGearIdWithUsername(gearID)

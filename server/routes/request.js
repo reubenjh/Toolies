@@ -14,7 +14,7 @@ router.post('/new', (req, res) => {
     const request = req.body
     const isSender = (req.user.user_id == req.body.requester_id)
 
-    requestDB.insertRequest(req.body, isSender)
+    requestDB.insertRequest(request, isSender)
         .then(details => {
             res.status(201).send(details)
         })
